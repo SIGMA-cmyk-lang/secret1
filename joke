@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прикольная страница</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+            color: #333;
+        }
+        h1 {
+            color: #FF5733;
+            font-size: 3em;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1.5em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет! Ты попал на секретную страницу!</h1>
+    <p>Нажми на кнопку для сюрприза.</p>
+    <button onclick="revealSecret()">Нажми меня!</button>
+    
+    <script>
+        function revealSecret() {
+            alert("Ты попался! Это был прикол! 😊");
+        }
+    </script>
+</body>
+</html>
